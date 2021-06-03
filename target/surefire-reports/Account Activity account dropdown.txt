@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Account Activity account dropdown
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.643 s - in Account Activity account dropdown

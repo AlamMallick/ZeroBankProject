@@ -1,0 +1,102 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4114000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "com.zeroabank.step_Definations.LoginStepDefs.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-01T20:31:46.757Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zeroabank.step_Definations.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "user-login;login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 819000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.zeroabank.step_Definations.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1118000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user logs in with valid credentials",
+            "match": {
+              "location": "com.zeroabank.step_Definations.LoginStepDefs.user_logs_in_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the page title should be \"Zero - Account Summary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Account Summary\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.zeroabank.step_Definations.LoginStepDefs.the_page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "User login",
+    "description": "",
+    "id": "user-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
